@@ -157,22 +157,30 @@ h2 {
     padding-bottom: 3px;
 }
 /* ================================
-   HERO RIGHT / INTRODUCTION
+   HERO RIGHT / PHOTO + INTRO
 ================================ */
 .hero-right {
     min-height: 642px;
     display: grid;
     grid-template-rows: 58% 42%;
 }
-/* Giovanni's photo */
+/* PHOTO */
 .intro-photo {
     min-height: 0;
+    position: relative;
     background-image: url("images/jerome.jpeg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
-/* Introduction */
+/*
+   Hide the old "FOTO" text from your HTML.
+   We are keeping your HTML unchanged.
+*/
+.photo-placeholder {
+    display: none;
+}
+/* INTRODUCTION */
 .intro-content {
     padding: 38px 8%;
     display: flex;
