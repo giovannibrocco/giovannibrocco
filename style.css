@@ -16,18 +16,14 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-
     background: #f5f2ec;
-
     color: #171717;
-
     line-height: 1.6;
 }
 
 
 a {
     color: inherit;
-
     text-decoration: none;
 }
 
@@ -38,11 +34,8 @@ a {
 
 .eyebrow {
     font-size: 12px;
-
     letter-spacing: 1.8px;
-
     font-weight: 600;
-
     margin-bottom: 20px;
 }
 
@@ -53,30 +46,20 @@ a {
 
 header {
     width: 100%;
-
     padding: 18px 6%;
-
     position: absolute;
-
     top: 0;
-
     left: 0;
-
     z-index: 10;
-
     background: #202526;
-
     color: #f5f2ec;
 }
 
 
 nav {
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     gap: 30px;
 }
 
@@ -85,31 +68,24 @@ nav {
 
 .logo {
     display: flex;
-
     flex-direction: column;
-
     color: #f5f2ec;
-
-    min-width: 180px;
+    min-width: 205px;
 }
 
 
 .logo span {
     font-family: Georgia, serif;
-
-    font-size: 25px;
-
-    letter-spacing: 3px;
-
-    line-height: 1;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.1;
 }
 
 
 .logo small {
-    font-size: 10px;
-
+    font-size: 9px;
     letter-spacing: 0.8px;
-
     margin-top: 5px;
 }
 
@@ -118,16 +94,13 @@ nav {
 
 .nav-links {
     display: flex;
-
     align-items: center;
-
     gap: 27px;
 }
 
 
 .nav-links a {
     color: #f5f2ec;
-
     font-size: 13px;
 }
 
@@ -141,15 +114,10 @@ nav {
 
 .nav-button {
     background: #ead7b9;
-
     color: #171717;
-
     padding: 11px 18px;
-
     font-size: 13px;
-
     border-radius: 2px;
-
     white-space: nowrap;
 }
 
@@ -165,13 +133,9 @@ nav {
 
 .hero {
     min-height: 720px;
-
     padding-top: 78px;
-
     display: grid;
-
     grid-template-columns: 50% 50%;
-
     background: #f5f2ec;
 }
 
@@ -182,61 +146,43 @@ nav {
 
 .hero-content {
     min-height: 642px;
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
     padding: 70px 8%;
 }
 
 
 .hero h1 {
     font-size: clamp(62px, 7vw, 105px);
-
     line-height: 0.88;
-
     letter-spacing: -4px;
-
     font-weight: 400;
-
     margin-bottom: 30px;
 }
 
 
 .hero-text {
     max-width: 390px;
-
     font-size: 14px;
-
     line-height: 1.6;
-
     color: #555;
-
     margin-bottom: 30px;
 }
 
 
 .hero-buttons {
     display: flex;
-
     align-items: center;
-
     gap: 22px;
 }
 
 
 .button {
     background: #171717;
-
     color: white;
-
     padding: 13px 21px;
-
     font-size: 13px;
-
     border-radius: 2px;
 }
 
@@ -253,58 +199,47 @@ nav {
 
 /* =========================================
    HERO RIGHT
-
-   THIS ENTIRE AREA IS ONLY ON THE RIGHT
 ========================================= */
 
 .hero-right {
     min-height: 642px;
-
     display: grid;
-
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 48% 52%;
 }
 
 
 /* =========================================
-   RIGHT TOP HALF = PHOTO
+   PHOTO
 ========================================= */
 
 .intro-photo {
     min-height: 0;
-
     background: #cbc6bc;
 
     display: flex;
-
     justify-content: center;
-
     align-items: center;
 
     background-size: cover;
-
     background-position: center;
 
-
     /*
-    WHEN YOU HAVE JEROME'S PHOTO:
+    QUANDO HAI LA FOTO DI GIOVANNI:
 
-    background-image: url("images/jerome.jpg");
+    background-image: url("images/giovanni.jpg");
     */
 }
 
 
 .photo-placeholder {
     font-size: 12px;
-
     letter-spacing: 2px;
-
     color: #77736d;
 }
 
 
 /* =========================================
-   RIGHT BOTTOM HALF = INTRODUCTION
+   INTRODUCTION
 ========================================= */
 
 .intro-content {
@@ -312,31 +247,29 @@ nav {
 
     background: #e6e1d7;
 
-    padding: 48px 8%;
+    padding: 42px 8%;
 
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
 }
 
 
 .intro-content .eyebrow {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 
 .intro-content h2 {
     font-family: Arial, serif;
 
-    font-size: clamp(36px, 3.4vw, 50px);
+    font-size: clamp(36px, 3.2vw, 50px);
 
     line-height: 1.05;
 
     font-weight: 700;
 
-    margin-bottom: 18px;
+    margin-bottom: 17px;
 }
 
 
@@ -345,16 +278,16 @@ nav {
 
     font-size: 14px;
 
-    line-height: 1.6;
+    line-height: 1.58;
 
     color: #555;
 
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 
 
 .intro-name {
-    margin-top: 10px;
+    margin-top: 9px;
 
     font-family: Arial, serif;
 
@@ -370,24 +303,19 @@ nav {
 
 .about {
     display: grid;
-
     grid-template-columns: 50% 50%;
-
     min-height: 430px;
 }
 
 
 .about-text {
     background: #202526;
-
     color: #f5f2ec;
 
     padding: 60px 8%;
 
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
 }
 
@@ -429,7 +357,6 @@ nav {
 
 .light-link {
     color: #f5f2ec;
-
     font-size: 13px;
 }
 
@@ -440,7 +367,6 @@ nav {
     min-height: 430px;
 
     background-size: cover;
-
     background-position: center;
 }
 
@@ -451,21 +377,18 @@ nav {
 
 .process {
     background: #f7f6f2;
-
     padding: 45px 7% 55px;
 }
 
 
 .section-title {
     text-align: center;
-
     margin-bottom: 28px;
 }
 
 
 .process-list {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
 
     max-width: 950px;
@@ -560,7 +483,6 @@ nav {
 
 .service-icon {
     width: 40px;
-
     height: 40px;
 
     border-radius: 50%;
@@ -581,7 +503,6 @@ nav {
 
 .service-card h3 {
     font-size: 21px;
-
     margin-bottom: 10px;
 }
 
@@ -612,14 +533,12 @@ nav {
 
 .service-bottom div {
     display: flex;
-
     flex-direction: column;
 }
 
 
 .service-bottom span {
     font-size: 14px;
-
     color: #777;
 }
 
@@ -915,8 +834,6 @@ footer {
 
 /* =========================================
    PRIVACY + CONSENT
-
-   BOTH PAGES USE THE SAME DOCUMENT SYSTEM
 ========================================= */
 
 .document-page {
@@ -963,8 +880,6 @@ footer {
     line-height: 1.6;
 }
 
-
-/* SAME CONTENT AREA */
 
 .document-content {
     width: 100%;
@@ -1051,8 +966,6 @@ footer {
 
 /* =========================================
    CONSENT FORM
-
-   STILL USES DOCUMENT PAGE DESIGN
 ========================================= */
 
 .document-form-section {
@@ -1064,7 +977,6 @@ footer {
 
 fieldset.document-form-section {
     border: 0;
-
     padding: 0;
 }
 
@@ -1255,7 +1167,6 @@ fieldset.document-form-section {
 
 @media (max-width: 900px) {
 
-
     .nav-links {
         display: none;
     }
@@ -1278,7 +1189,7 @@ fieldset.document-form-section {
     .hero-right {
         min-height: 650px;
 
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 48% 52%;
     }
 
 
@@ -1318,7 +1229,6 @@ fieldset.document-form-section {
 
 @media (max-width: 600px) {
 
-
     /* HEADER */
 
     header {
@@ -1337,7 +1247,8 @@ fieldset.document-form-section {
 
 
     .logo span {
-        font-size: 21px;
+        font-size: 18px;
+        letter-spacing: 0;
     }
 
 
@@ -1384,6 +1295,11 @@ fieldset.document-form-section {
         min-height: 650px;
 
         grid-template-rows: 325px auto;
+    }
+
+
+    .intro-photo {
+        min-height: 325px;
     }
 
 
