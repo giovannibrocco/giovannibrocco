@@ -642,6 +642,45 @@ nav {
 }
 
 
+/* COMING SOON */
+
+.coming-soon {
+    display: inline-block;
+
+    background: #e5e1d9;
+
+    color: #77736d !important;
+
+    padding: 9px 18px;
+
+    font-size: 12px !important;
+
+    border-radius: 2px;
+
+    white-space: nowrap;
+}
+
+
+/* FIRST CONSULTATION NOTE */
+
+.service-note {
+    max-width: 950px;
+
+    margin: 25px auto 0;
+
+    text-align: center;
+
+    font-size: 13px;
+
+    color: #77736d;
+}
+
+
+.service-note strong {
+    color: #202526;
+}
+
+
 /* =========================================
    CTA
 ========================================= */
@@ -1423,6 +1462,27 @@ fieldset.document-form-section {
 
     .service-list {
         grid-template-columns: 1fr;
+    }
+
+
+    .service-bottom {
+        gap: 15px;
+    }
+
+
+    .coming-soon {
+        padding: 8px 12px;
+
+        font-size: 11px !important;
+
+        text-align: center;
+    }
+
+
+    .service-note {
+        padding: 0 5px;
+
+        line-height: 1.6;
     }
 
 
