@@ -8,11 +8,9 @@
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -20,7 +18,6 @@ body {
     color: #171717;
     line-height: 1.6;
 }
-
 
 a {
     color: inherit;
@@ -55,7 +52,6 @@ header {
     color: #f5f2ec;
 }
 
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -73,7 +69,6 @@ nav {
     min-width: 205px;
 }
 
-
 .logo span {
     font-family: Georgia, serif;
     font-size: 21px;
@@ -81,7 +76,6 @@ nav {
     letter-spacing: 0.3px;
     line-height: 1.1;
 }
-
 
 .logo small {
     font-size: 9px;
@@ -98,12 +92,10 @@ nav {
     gap: 27px;
 }
 
-
 .nav-links a {
     color: #f5f2ec;
     font-size: 13px;
 }
-
 
 .nav-links a:hover {
     opacity: 0.65;
@@ -121,7 +113,6 @@ nav {
     white-space: nowrap;
 }
 
-
 .nav-button:hover {
     background: #f1dfc2;
 }
@@ -134,8 +125,10 @@ nav {
 .hero {
     min-height: 720px;
     padding-top: 78px;
+
     display: grid;
     grid-template-columns: 50% 50%;
+
     background: #f5f2ec;
 }
 
@@ -146,12 +139,13 @@ nav {
 
 .hero-content {
     min-height: 642px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     padding: 70px 8%;
 }
-
 
 .hero h1 {
     font-size: clamp(62px, 7vw, 105px);
@@ -161,15 +155,15 @@ nav {
     margin-bottom: 30px;
 }
 
-
 .hero-text {
     max-width: 390px;
+
     font-size: 14px;
     line-height: 1.6;
     color: #555;
+
     margin-bottom: 30px;
 }
-
 
 .hero-buttons {
     display: flex;
@@ -177,20 +171,19 @@ nav {
     gap: 22px;
 }
 
-
 .button {
     background: #171717;
     color: white;
+
     padding: 13px 21px;
+
     font-size: 13px;
     border-radius: 2px;
 }
 
-
 .button:hover {
     background: #343434;
 }
-
 
 .text-link {
     font-size: 13px;
@@ -201,10 +194,17 @@ nav {
    HERO RIGHT
 ========================================= */
 
+/*
+   The photo is intentionally larger now.
+   The introduction sits directly underneath it.
+*/
+
 .hero-right {
     min-height: 642px;
+
     display: grid;
-    grid-template-rows: 48% 52%;
+
+    grid-template-rows: 58% 42%;
 }
 
 
@@ -214,6 +214,7 @@ nav {
 
 .intro-photo {
     min-height: 0;
+
     background: #cbc6bc;
 
     display: flex;
@@ -229,7 +230,6 @@ nav {
     background-image: url("images/giovanni.jpg");
     */
 }
-
 
 .photo-placeholder {
     font-size: 12px;
@@ -247,52 +247,45 @@ nav {
 
     background: #e6e1d7;
 
-    padding: 42px 8%;
+    padding: 38px 8%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-
 .intro-content .eyebrow {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
-
 
 .intro-content h2 {
     font-family: Arial, serif;
 
-    font-size: clamp(36px, 3.2vw, 50px);
+    font-size: clamp(34px, 3vw, 46px);
 
     line-height: 1.05;
-
     font-weight: 700;
 
-    margin-bottom: 17px;
+    margin-bottom: 14px;
 }
-
 
 .intro-content > p:not(.eyebrow):not(.intro-name) {
     max-width: 520px;
 
-    font-size: 14px;
-
-    line-height: 1.58;
+    font-size: 13px;
+    line-height: 1.5;
 
     color: #555;
 
-    margin-bottom: 9px;
+    margin-bottom: 7px;
 }
 
-
 .intro-name {
-    margin-top: 9px;
+    margin-top: 7px;
 
     font-family: Arial, serif;
 
     font-size: 17px;
-
     font-weight: 700;
 }
 
@@ -301,36 +294,43 @@ nav {
    ABOUT
 ========================================= */
 
+/*
+   Reduced the height so there isn't a huge
+   empty block next to the text.
+*/
+
 .about {
     display: grid;
-    grid-template-columns: 50% 50%;
-    min-height: 430px;
-}
 
+    grid-template-columns: 50% 50%;
+
+    min-height: 340px;
+}
 
 .about-text {
     background: #202526;
+
     color: #f5f2ec;
 
-    padding: 60px 8%;
+    padding: 48px 8%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-
 .about-text .eyebrow {
     color: #bcbcb5;
-}
 
+    margin-bottom: 14px;
+}
 
 .about h2 {
     max-width: 480px;
 
     font-family: Arial, serif;
 
-    font-size: clamp(42px, 5vw, 65px);
+    font-size: clamp(38px, 4.5vw, 58px);
 
     font-weight: 400;
 
@@ -338,33 +338,31 @@ nav {
 
     letter-spacing: -2px;
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-
 
 .about-description {
     max-width: 440px;
 
     color: #c7c6c0;
 
-    font-size: 14px;
+    font-size: 13px;
 
-    line-height: 1.65;
+    line-height: 1.55;
 
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
-
 
 .light-link {
     color: #f5f2ec;
+
     font-size: 13px;
 }
-
 
 .about-image {
     background: #d4cfc6;
 
-    min-height: 430px;
+    min-height: 340px;
 
     background-size: cover;
     background-position: center;
@@ -377,25 +375,25 @@ nav {
 
 .process {
     background: #f7f6f2;
+
     padding: 45px 7% 55px;
 }
 
-
 .section-title {
     text-align: center;
+
     margin-bottom: 28px;
 }
 
-
 .process-list {
     display: grid;
+
     grid-template-columns: repeat(3, 1fr);
 
     max-width: 950px;
 
     margin: auto;
 }
-
 
 .process-item {
     text-align: center;
@@ -405,11 +403,9 @@ nav {
     border-right: 1px solid #d5d1ca;
 }
 
-
 .process-item:last-child {
     border-right: none;
 }
-
 
 .process-number {
     display: block;
@@ -421,7 +417,6 @@ nav {
     margin-bottom: 5px;
 }
 
-
 .process-item h3 {
     font-size: 17px;
 
@@ -429,7 +424,6 @@ nav {
 
     margin-bottom: 6px;
 }
-
 
 .process-item p {
     max-width: 190px;
@@ -452,7 +446,6 @@ nav {
     padding: 25px 7% 60px;
 }
 
-
 .service-list {
     display: grid;
 
@@ -465,7 +458,6 @@ nav {
     margin: auto;
 }
 
-
 .service-card {
     background: #faf9f6;
 
@@ -476,10 +468,8 @@ nav {
     min-height: 240px;
 
     display: flex;
-
     flex-direction: column;
 }
-
 
 .service-icon {
     width: 40px;
@@ -492,7 +482,6 @@ nav {
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     font-size: 20px;
@@ -500,12 +489,11 @@ nav {
     margin-bottom: 15px;
 }
 
-
 .service-card h3 {
     font-size: 21px;
+
     margin-bottom: 10px;
 }
-
 
 .service-card > p {
     font-size: 14px;
@@ -516,7 +504,6 @@ nav {
 
     max-width: 350px;
 }
-
 
 .service-bottom {
     display: flex;
@@ -530,23 +517,21 @@ nav {
     padding-top: 22px;
 }
 
-
 .service-bottom div {
     display: flex;
+
     flex-direction: column;
 }
 
-
 .service-bottom span {
     font-size: 14px;
+
     color: #777;
 }
-
 
 .service-bottom strong {
     font-size: 15px;
 }
-
 
 .service-bottom a {
     background: #202526;
@@ -559,7 +544,6 @@ nav {
 
     border-radius: 2px;
 }
-
 
 .service-coming-soon {
     display: inline-block;
@@ -576,7 +560,6 @@ nav {
 
     white-space: nowrap;
 }
-
 
 .service-disclaimer {
     max-width: 950px;
@@ -619,7 +602,6 @@ nav {
     color: white;
 }
 
-
 .cta-image {
     position: absolute;
 
@@ -627,7 +609,6 @@ nav {
 
     background: #77736d;
 }
-
 
 .cta-image::after {
     content: "";
@@ -639,7 +620,6 @@ nav {
     background: rgba(20, 20, 18, 0.35);
 }
 
-
 .cta-content {
     position: relative;
 
@@ -647,7 +627,6 @@ nav {
 
     text-align: center;
 }
-
 
 .cta h2 {
     font-family: Georgia, serif;
@@ -659,7 +638,6 @@ nav {
     margin-bottom: 7px;
 }
 
-
 .cta p {
     font-size: 14px;
 
@@ -667,7 +645,6 @@ nav {
 
     color: #e3e0d9;
 }
-
 
 .cta-button {
     display: inline-block;
@@ -694,7 +671,6 @@ nav {
     background: #f5f2ec;
 }
 
-
 .contact h2 {
     font-family: Georgia, serif;
 
@@ -709,7 +685,6 @@ nav {
     margin-bottom: 18px;
 }
 
-
 .contact > p:not(.eyebrow) {
     font-size: 14px;
 
@@ -718,7 +693,6 @@ nav {
     margin-bottom: 28px;
 }
 
-
 .contact-links {
     display: flex;
 
@@ -726,7 +700,6 @@ nav {
 
     gap: 30px;
 }
-
 
 .contact-links a {
     font-size: 14px;
@@ -745,7 +718,6 @@ footer {
     padding: 50px 7% 22px;
 }
 
-
 .footer-main {
     display: grid;
 
@@ -758,11 +730,9 @@ footer {
     border-bottom: 1px solid #424645;
 }
 
-
 .footer-brand .logo {
     margin-bottom: 20px;
 }
-
 
 .footer-brand > p {
     color: #b9b9b2;
@@ -772,11 +742,9 @@ footer {
     line-height: 1.7;
 }
 
-
 .footer-legal {
     margin-top: 22px;
 }
-
 
 .footer-legal p {
     font-size: 13px;
@@ -786,7 +754,6 @@ footer {
     line-height: 1.8;
 }
 
-
 .footer-column {
     display: flex;
 
@@ -794,7 +761,6 @@ footer {
 
     gap: 10px;
 }
-
 
 .footer-column h4 {
     font-size: 13px;
@@ -806,18 +772,15 @@ footer {
     margin-bottom: 7px;
 }
 
-
 .footer-column a {
     color: #d0cec7;
 
     font-size: 13px;
 }
 
-
 .footer-column a:hover {
     color: white;
 }
-
 
 .footer-bottom {
     padding-top: 18px;
@@ -840,7 +803,6 @@ footer {
     width: 100%;
 }
 
-
 .document-hero {
     background: #202526;
 
@@ -849,11 +811,9 @@ footer {
     padding: 135px 7% 65px;
 }
 
-
 .document-hero .eyebrow {
     color: #bcbcb5;
 }
-
 
 .document-hero h1 {
     max-width: 900px;
@@ -871,7 +831,6 @@ footer {
     margin-bottom: 18px;
 }
 
-
 .document-hero > p:not(.eyebrow) {
     font-size: 14px;
 
@@ -879,7 +838,6 @@ footer {
 
     line-height: 1.6;
 }
-
 
 .document-content {
     width: 100%;
@@ -890,7 +848,6 @@ footer {
 
     padding: 70px 7% 95px;
 }
-
 
 .document-content h2,
 .document-form-section legend {
@@ -909,11 +866,9 @@ footer {
     letter-spacing: -0.3px;
 }
 
-
 .document-content > h2:first-child {
     margin-top: 0;
 }
-
 
 .document-content p {
     max-width: 900px;
@@ -927,7 +882,6 @@ footer {
     margin-bottom: 16px;
 }
 
-
 .document-content ul {
     max-width: 900px;
 
@@ -935,7 +889,6 @@ footer {
 
     margin-bottom: 20px;
 }
-
 
 .document-content li {
     font-size: 14px;
@@ -947,7 +900,6 @@ footer {
     margin-bottom: 6px;
 }
 
-
 .document-link {
     color: #202526;
 
@@ -957,7 +909,6 @@ footer {
 
     font-weight: 600;
 }
-
 
 .document-link:hover {
     opacity: 0.65;
@@ -974,17 +925,15 @@ footer {
     margin-bottom: 40px;
 }
 
-
 fieldset.document-form-section {
     border: 0;
+
     padding: 0;
 }
-
 
 .document-form-section:first-child h2 {
     margin-top: 0;
 }
-
 
 .document-form-section label:not(.form-choice) {
     display: block;
@@ -995,7 +944,6 @@ fieldset.document-form-section {
 
     margin: 18px 0 7px;
 }
-
 
 .document-form-section input[type="text"],
 .document-form-section input[type="date"] {
@@ -1047,7 +995,6 @@ fieldset.document-form-section {
     color: #444;
 }
 
-
 .form-choice input {
     margin-top: 5px;
 
@@ -1094,13 +1041,11 @@ fieldset.document-form-section {
     cursor: pointer;
 }
 
-
 .secondary-button:hover {
     background: #202526;
 
     color: white;
 }
-
 
 .final-confirmation {
     max-width: 900px;
@@ -1120,13 +1065,11 @@ fieldset.document-form-section {
     color: #444;
 }
 
-
 .final-confirmation input {
     margin-top: 5px;
 
     flex-shrink: 0;
 }
-
 
 .submit-button {
     padding: 14px 28px;
@@ -1146,11 +1089,9 @@ fieldset.document-form-section {
     cursor: pointer;
 }
 
-
 .submit-button:hover {
     background: #343a3b;
 }
-
 
 .form-status {
     margin-top: 18px;
@@ -1178,18 +1119,16 @@ fieldset.document-form-section {
         grid-template-columns: 1fr;
     }
 
-
     .hero-content {
         min-height: 600px;
 
         padding: 120px 7% 65px;
     }
 
-
     .hero-right {
-        min-height: 650px;
+        min-height: 760px;
 
-        grid-template-rows: 48% 52%;
+        grid-template-rows: 55% 45%;
     }
 
 
@@ -1197,8 +1136,13 @@ fieldset.document-form-section {
 
     .about {
         grid-template-columns: 1fr;
+
+        min-height: 0;
     }
 
+    .about-text {
+        min-height: 330px;
+    }
 
     .about-image {
         min-height: 380px;
@@ -1219,7 +1163,6 @@ fieldset.document-form-section {
 
         padding: 60px 7% 80px;
     }
-
 }
 
 
@@ -1235,27 +1178,23 @@ fieldset.document-form-section {
         padding: 16px 5%;
     }
 
-
     nav {
         gap: 15px;
     }
-
 
     .logo {
         min-width: auto;
     }
 
-
     .logo span {
         font-size: 18px;
+
         letter-spacing: 0;
     }
-
 
     .logo small {
         font-size: 8px;
     }
-
 
     .nav-button {
         font-size: 12px;
@@ -1272,13 +1211,11 @@ fieldset.document-form-section {
         padding: 115px 5% 60px;
     }
 
-
     .hero h1 {
         font-size: 62px;
 
         letter-spacing: -2px;
     }
-
 
     .hero-buttons {
         flex-direction: column;
@@ -1292,21 +1229,18 @@ fieldset.document-form-section {
     /* HERO RIGHT */
 
     .hero-right {
-        min-height: 650px;
+        min-height: 0;
 
-        grid-template-rows: 325px auto;
+        grid-template-rows: 380px auto;
     }
-
 
     .intro-photo {
-        min-height: 325px;
+        min-height: 380px;
     }
-
 
     .intro-content {
-        padding: 40px 6%;
+        padding: 42px 6%;
     }
-
 
     .intro-content h2 {
         font-size: 42px;
@@ -1316,14 +1250,14 @@ fieldset.document-form-section {
     /* ABOUT */
 
     .about-text {
-        padding: 60px 5%;
-    }
+        min-height: 0;
 
+        padding: 50px 5%;
+    }
 
     .about h2 {
         font-size: 47px;
     }
-
 
     .about-image {
         min-height: 320px;
@@ -1336,11 +1270,9 @@ fieldset.document-form-section {
         padding: 40px 5%;
     }
 
-
     .process-list {
         grid-template-columns: 1fr;
     }
-
 
     .process-item {
         border-right: 0;
@@ -1351,7 +1283,6 @@ fieldset.document-form-section {
 
         margin-bottom: 27px;
     }
-
 
     .process-item:last-child {
         border-bottom: 0;
@@ -1366,18 +1297,15 @@ fieldset.document-form-section {
         padding: 25px 5% 50px;
     }
 
-
     .service-list {
         grid-template-columns: 1fr;
     }
-
 
     .service-disclaimer {
         padding: 0 10px;
 
         font-size: 13px;
     }
-
 
     .service-coming-soon {
         font-size: 12px;
@@ -1392,7 +1320,6 @@ fieldset.document-form-section {
         padding: 70px 5%;
     }
 
-
     .contact-links {
         flex-direction: column;
 
@@ -1406,13 +1333,11 @@ fieldset.document-form-section {
         padding: 45px 5% 22px;
     }
 
-
     .footer-main {
         grid-template-columns: 1fr;
 
         gap: 30px;
     }
-
 
     .footer-bottom {
         flex-direction: column;
@@ -1427,16 +1352,13 @@ fieldset.document-form-section {
         padding: 115px 5% 50px;
     }
 
-
     .document-hero h1 {
         font-size: 34px;
     }
 
-
     .document-content {
         padding: 50px 5% 70px;
     }
-
 
     .document-content h2,
     .document-form-section legend {
@@ -1445,7 +1367,6 @@ fieldset.document-form-section {
         margin-top: 40px;
     }
 
-
     .document-content p,
     .document-content li,
     .form-choice,
@@ -1453,9 +1374,7 @@ fieldset.document-form-section {
         font-size: 14px;
     }
 
-
     .signature-pad {
         height: 170px;
     }
-
 }
