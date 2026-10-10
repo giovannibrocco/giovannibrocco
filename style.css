@@ -1157,11 +1157,18 @@ fieldset.document-form-section {
 }
 
 .booking-contact a {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 44px;
 
     padding: 13px 22px;
 
+    font-family: Arial, sans-serif;
     font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
 
     border-radius: 2px;
 
@@ -1521,6 +1528,7 @@ fieldset.document-form-section {
     }
 
     .booking-contact a {
+        width: 100%;
         text-align: center;
     }
 
