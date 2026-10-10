@@ -965,3 +965,39 @@ fieldset.document-form-section {
         margin-top: 32px;
     }
 }
+/* FORCE ALL THREE BOOKING BUTTONS TO MATCH ON MOBILE */
+@media (max-width: 600px) {
+    .booking-buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 14px !important;
+        width: 100%;
+    }
+    .booking-buttons a.booking-button,
+    .booking-buttons a.booking-button-primary,
+    .booking-buttons a.booking-button-secondary,
+    .booking-buttons a.booking-button-tertiary {
+        display: flex !important;
+        width: 100% !important;
+        min-height: 44px;
+        align-items: center;
+        justify-content: center;
+        padding: 13px 22px;
+        background: #ead7b9 !important;
+        color: #171717 !important;
+        border: none;
+        border-radius: 2px;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .booking-buttons a.booking-button:hover,
+    .booking-buttons a.booking-button-primary:hover,
+    .booking-buttons a.booking-button-secondary:hover,
+    .booking-buttons a.booking-button-tertiary:hover {
+        background: #f1dfc2 !important;
+        color: #171717 !important;
+    }
+}
