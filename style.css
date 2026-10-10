@@ -1087,76 +1087,15 @@ fieldset.document-form-section {
    Existing homepage styles are unchanged.
 ========================================= */
 
-.booking-page {
-    min-height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-
-    background: #f5f2ec;
-}
-
-.booking-main {
-    flex: 1;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 150px 7% 90px;
-}
-
-.booking-content {
-    width: 100%;
-    max-width: 760px;
-
-    margin: 0 auto;
-}
-
-.booking-content .eyebrow {
-    color: #77736d;
-
-    margin-bottom: 22px;
-}
-
-.booking-content h1 {
-    max-width: 720px;
-
-    font-family: Georgia, serif;
-
-    font-size: clamp(42px, 6vw, 72px);
-
-    font-weight: 400;
-
-    line-height: 1.05;
-
-    letter-spacing: -2px;
-
-    margin-bottom: 28px;
-}
-
-.booking-content > p {
-    max-width: 650px;
-
-    font-size: 15px;
-
-    line-height: 1.85;
-
-    color: #555;
-
-    margin-bottom: 18px;
-}
-
-.booking-contact {
+.booking-buttons {
     display: flex;
     flex-wrap: wrap;
-
+    align-items: center;
     gap: 14px;
-
     margin-top: 32px;
 }
 
-.booking-contact a {
+.booking-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1175,25 +1114,29 @@ fieldset.document-form-section {
     transition: background 0.2s ease;
 }
 
-.booking-email {
-    background: #202526;
+/* EMAIL BUTTON */
 
+.booking-button-primary {
+    background: #202526;
     color: #f5f2ec;
 }
 
-.booking-email:hover {
+.booking-button-primary:hover {
     background: #343a3b;
 }
 
-.booking-instagram {
-    background: #ead7b9;
+/* INSTAGRAM BUTTON */
 
+.booking-button-secondary {
+    background: #ead7b9;
     color: #171717;
 }
 
-.booking-instagram:hover {
+.booking-button-secondary:hover {
     background: #f1dfc2;
 }
+
+/* SIGNATURE */
 
 .booking-signature {
     margin-top: 42px;
@@ -1217,24 +1160,6 @@ fieldset.document-form-section {
     letter-spacing: 1px;
 
     color: #77736d;
-}
-
-.booking-home {
-    display: inline-block;
-
-    margin-top: 35px;
-
-    font-size: 13px;
-
-    color: #555;
-
-    text-decoration: underline;
-
-    text-underline-offset: 4px;
-}
-
-.booking-home:hover {
-    color: #171717;
 }
 
 /* =========================================
@@ -1293,12 +1218,6 @@ fieldset.document-form-section {
         max-width: 100%;
 
         padding: 60px 7% 80px;
-    }
-
-    /* BOOKING PAGE */
-
-    .booking-main {
-        padding: 140px 7% 75px;
     }
 }
 
@@ -1506,28 +1425,14 @@ fieldset.document-form-section {
         height: 170px;
     }
 
-    /* BOOKING PAGE */
+    /* BOOKING BUTTONS */
 
-    .booking-main {
-        padding: 120px 6% 65px;
-    }
-
-    .booking-content h1 {
-        font-size: 43px;
-
-        letter-spacing: -1px;
-    }
-
-    .booking-content > p {
-        font-size: 14px;
-    }
-
-    .booking-contact {
+    .booking-buttons {
         flex-direction: column;
         align-items: stretch;
     }
 
-    .booking-contact a {
+    .booking-button {
         width: 100%;
         text-align: center;
     }
