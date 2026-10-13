@@ -1,4 +1,4 @@
-
+```css
 /* =========================================
    RESET
 ========================================= */
@@ -116,7 +116,7 @@ nav {
     padding-top: 78px;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    grid-template-rows: minmax(560px, 642px) auto;
+    grid-template-rows: minmax(560px, 700px) auto;
     background: #f5f2ec;
 }
 
@@ -942,7 +942,7 @@ fieldset.document-form-section {
     .hero {
         padding-top: 78px;
         grid-template-columns: minmax(0, 1fr);
-        grid-template-rows: auto 380px auto auto;
+        grid-template-rows: auto 560px auto auto;
     }
 
     .hero-content {
@@ -961,24 +961,31 @@ fieldset.document-form-section {
         gap: 15px;
     }
 
+    /* PHOTO: FILL THE AREA WITH A MORE BALANCED CROP */
     .intro-photo {
         min-height: 0;
-        height: 380px;
+        height: 560px;
+        background-size: cover;
         background-position: center 35%;
+        background-repeat: no-repeat;
     }
 
+    /* CHI SONO: FIRST AFTER THE PHOTO */
+    .intro-content {
+        order: 3;
+        min-height: 0;
+        padding: 42px 6%;
+    }
+
+    /* UN DIALOGO: AFTER CHI SONO */
     .about-text {
+        order: 4;
         min-height: 0;
         padding: 50px 5%;
     }
 
     .about-text h2 {
         font-size: 47px;
-    }
-
-    .intro-content {
-        min-height: 0;
-        padding: 42px 6%;
     }
 
     /* PROCESS */
@@ -1117,3 +1124,4 @@ fieldset.document-form-section {
         margin-top: 32px;
     }
 }
+```
