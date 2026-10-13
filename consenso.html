@@ -1,1063 +1,339 @@
+```html
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>
-        Modulo di consenso | JDG
-    </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contratto di consulenza introspetiva | Giovanni Brocco</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-
-
 <body>
 
+<header>
+    <nav>
+        <a href="index.html" class="logo">
+            <span>Giovanni Brocco</span>
+            <small>consulenze introspettive</small>
+        </a>
 
-    <header>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">Cos'è</a>
+            <a href="index.html#come-funziona">Come funziona</a>
+            <a href="index.html#services">Servizi</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="index.html#contact">Contatti</a>
+        </div>
 
-        <nav>
+        <a href="prenota.html" class="nav-button">Prenota</a>
+    </nav>
+</header>
 
-            <a href="index.html" class="logo">
+<main class="document-page">
 
-                <span>
-                    JDG
-                </span>
+    <section class="document-hero">
+        <p class="eyebrow">CONTRATTO</p>
+        <h1>Contratto di consulenza filosofica</h1>
+        <p>Condizioni del servizio e accordo tra Consulente e Cliente</p>
+    </section>
 
-                <small>
-                    consulenze introspettive
-                </small>
+    <section class="document-content">
 
-            </a>
+        <form id="contract-form">
 
+            <h2>1. Parti</h2>
 
-            <div class="nav-links">
-
-                <a href="index.html">
-                    Home
-                </a>
-
-                <a href="index.html#about">
-                    Cos'è
-                </a>
-
-                <a href="index.html#come-funziona">
-                    Come funziona
-                </a>
-
-                <a href="index.html#services">
-                    Servizi
-                </a>
-
-                <a href="privacy.html">
-                    Privacy
-                </a>
-
-                <a href="index.html#contact">
-                    Contatti
-                </a>
-
-            </div>
-
-
-            <a
-                href="https://www.calendly.com/brocco-giovanni-ufficiale/consulenza-filosofica"
-                class="nav-button">
-
-                Prenota
-
-            </a>
-
-        </nav>
-
-    </header>
-
-
-    <main class="document-page">
-
-
-        <!-- =========================================
-             SAME HERO AS PRIVACY
-        ========================================== -->
-
-        <section class="document-hero">
-
-            <p class="eyebrow">
-                MODULO DI CONSENSO
-            </p>
-
-            <h1>
-
-                Consenso alla registrazione
-                e alla pubblicazione
-
-            </h1>
+            <p><strong>Professionista (di seguito "Consulente")</strong></p>
 
             <p>
-
-                Consulenza introspettiva
-
+                Nome: <strong>GIOVANNI BROCCO</strong><br>
+                Codice fiscale: <strong>BRCGNN05D05L407U</strong><br>
+                Residenza: <strong>QUARTO D'ALTINO (VE), 30020, VIA MONSIGNORE GIUSEPPE PASQUINI 54</strong><br>
+                P. IVA: <strong>05011890273</strong><br>
+                Email:
+                <a href="mailto:brocco.giovanni.ufficiale@gmail.com" class="document-link">
+                    brocco.giovanni.ufficiale@gmail.com
+                </a>
             </p>
 
-        </section>
+            <h2>Dati del Cliente</h2>
 
+            <div class="document-form-section">
+                <label for="fullname">Nome e cognome</label>
+                <input type="text" id="fullname" name="fullname" required>
 
-        <!-- =========================================
-             SAME CONTENT STRUCTURE AS PRIVACY
-        ========================================== -->
+                <label for="taxcode">Codice fiscale</label>
+                <input type="text" id="taxcode" name="taxcode" required>
 
-        <section class="document-content">
+                <label for="residence">Residenza</label>
+                <input type="text" id="residence" name="residence" required>
 
+                <label for="vat">P. IVA (se non avente, lasciare vuoto)</label>
+                <input type="text" id="vat" name="vat">
 
-            <form id="consent-form">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+            </div>
 
+            <h2>2. Oggetto e modalità del servizio</h2>
 
-                <!-- NAME -->
+            <p>
+                Il Consulente offre un servizio di consulenza filosofica
+                individuale, attraverso incontri di dialogo e riflessione
+                su interrogativi, scelte, valori ed esperienze proposti
+                dal Cliente.
+            </p>
 
-                <div class="document-form-section">
+            <p>
+                Mediante domande, confronto argomentativo e strumenti
+                del pensiero filosofico, il Consulente accompagna il
+                Cliente nell'esame delle proprie prospettive e nella
+                chiarificazione delle questioni affrontate, nel rispetto
+                della sua autonomia.
+            </p>
 
-                    <h2>
-                        Dati dell'interessato
-                    </h2>
+            <p>
+                Il percorso, gli obiettivi, il numero e la durata degli
+                incontri, le modalità di svolgimento (in presenza o a
+                distanza via videoconferenza) e il compenso sono concordati
+                caso per caso tra le parti.
+            </p>
 
-                    <label for="fullname">
-                        Nome e cognome
-                    </label>
+            <p>Il servizio può essere svolto in relazione diretta (1:1) oppure in gruppo.</p>
 
-                    <input
-                        type="text"
-                        id="fullname"
-                        name="fullname"
-                        required>
+            <h2>3. Esclusioni e limitazioni</h2>
 
-                </div>
+            <p>Il servizio non comprende:</p>
 
+            <ul>
+                <li>diagnosi, trattamenti sanitari o psicoterapia;</li>
+                <li>interventi medici, psicologici o clinici di alcun tipo;</li>
+                <li>garanzia di raggiungimento di risultati predeterminati.</li>
+            </ul>
 
-                <p>
+            <p>
+                Le decisioni assunte dal Cliente sulla base della consulenza
+                rimangono di esclusiva responsabilità del Cliente. Il
+                Consulente non assume responsabilità per gli effetti o
+                le conseguenze delle scelte operate dal Cliente, nei
+                limiti consentiti dalla normativa applicabile.
+            </p>
 
-                    Dichiaro di aver ricevuto e letto
-                    l'Informativa sul trattamento dei dati personali
-                    e di aver avuto la possibilità di porre domande
-                    al Titolare.
+            <h2>4. Impegni del Consulente</h2>
 
-                </p>
+            <p>Il Consulente si impegna a:</p>
 
+            <ul>
+                <li>svolgere l'attività con diligenza professionale;</li>
+                <li>mantenere la riservatezza durante e dopo il rapporto;</li>
+                <li>rispettare la normativa applicabile, in particolare il Regolamento (UE) 2016/679 (GDPR);</li>
+                <li>trattare i dati personali del Cliente secondo quanto descritto nell'Informativa sul trattamento dei dati personali, allegata al presente contratto.</li>
+            </ul>
 
-                <p>
+            <h2>5. Registrazione degli incontri</h2>
 
-                    <strong>
-                        Titolare del trattamento
-                    </strong>
+            <p>
+                Gli incontri potranno essere registrati in audio e/o video
+                esclusivamente con il preventivo e libero consenso del
+                Cliente, raccolto secondo le modalità specificate
+                nell'Informativa allegata.
+            </p>
 
-                    <br>
+            <p>
+                Le registrazioni sono finalizzate al riascolto personale
+                del Consulente per esigenze di approfondimento e
+                apprendimento professionale.
+            </p>
 
-                    Giovanni Brocco
+            <p>
+                Eventuali contenuti derivati dagli incontri potranno
+                essere proposti a terze parti in forma cartacea o
+                telematica, anche mediante pubblicazione su Internet,
+                esclusivamente dopo un processo di anonimizzazione
+                adeguato a impedire o non consentire più l'identificazione
+                dell'Interessato.
+            </p>
 
-                    <br>
+            <p>
+                La registrazione e il trattamento dei dati personali
+                finalizzato all'anonimizzazione sono attività distinte
+                e richiedono le rispettive basi giuridiche. L'eventuale
+                utilizzo di contenuti effettivamente anonimizzati deve
+                rispettare gli impegni descritti nell'Informativa privacy.
+            </p>
 
-                    P. IVA:
-                    05011890273
+            <h2>6. Compenso e pagamento</h2>
 
-                    <br>
+            <p>
+                <strong>Corrispettivo per incontro:</strong> €30,
+                con tariffa di €20 per la prima prestazione.
+            </p>
 
-                    Sede professionale:
-                    Quarto d'Altino, 30020,
-                    Via Monsignor Giuseppe Pasquini 54
+            <p>
+                <strong>Modalità di pagamento:</strong> bonifico bancario
+                con causale "consulenza filosofica".
+            </p>
 
-                    <br>
+            <p>
+                <strong>Disdetta:</strong> è richiesto un preavviso
+                di 3 giorni, senza penalità.
+            </p>
 
-                    E-mail:
+            <h2>7. Durata e recesso</h2>
 
-                    <a
-                        href="mailto:brocco.giovanni.ufficiale@gmail.com"
-                        class="document-link">
+            <p>
+                Il rapporto professionale ha la durata concordata con
+                il Cliente.
+            </p>
 
-                        brocco.giovanni.ufficiale@gmail.com
+            <p>
+                Ciascuna parte può recedere liberamente dal rapporto
+                con preavviso di 7 giorni, comunicato via email.
+            </p>
 
+            <p>
+                Il recesso non pregiudica la liceità del trattamento
+                dei dati personali effettuato prima della cessazione
+                del rapporto, secondo quanto previsto dal GDPR.
+            </p>
+
+            <h2>8. Dati personali e privacy</h2>
+
+            <p>Il trattamento dei dati personali del Cliente è regolato da:</p>
+
+            <ul>
+                <li>il presente contratto, in particolare la sezione 4;</li>
+                <li>l'Informativa sul trattamento dei dati personali ai sensi dell'art. 13 GDPR;</li>
+                <li>i moduli di consenso specifici allegati all'informativa, ove applicabili, per la registrazione e gli altri trattamenti facoltativi.</li>
+            </ul>
+
+            <p>
+                Il Cliente ha diritto di accedere, rettificare, cancellare,
+                limitare il trattamento, opporsi e ottenere la portabilità
+                dei propri dati nei casi previsti dagli artt. 15-22 GDPR.
+            </p>
+
+            <p>
+                Quando il trattamento è fondato sul consenso, il Cliente
+                può revocarlo in qualsiasi momento senza pregiudicare
+                la liceità del trattamento effettuato prima della revoca.
+            </p>
+
+            <p>
+                L'Informativa è consultabile alla pagina
+                <a href="privacy.html" class="document-link">Informativa Privacy</a>.
+            </p>
+
+            <h2>9. Normativa vigente</h2>
+
+            <p>Il presente contratto è regolato dalla legge italiana.</p>
+
+            <p>
+                Per eventuali controversie sarà competente il giudice
+                individuato secondo le norme applicabili, incluse le
+                eventuali disposizioni inderogabili a tutela del consumatore.
+            </p>
+
+            <h2>10. Firma</h2>
+
+            <p>
+                Il Consulente e il Cliente, sottoscrivendo il presente
+                contratto, confermano di aver letto e accettato le
+                condizioni qui riportate e di aver ricevuto l'Informativa
+                Privacy allegata.
+            </p>
+
+            <p><strong>Consulente:</strong> Giovanni Brocco</p>
+
+            <p>
+                <strong>Firma del Consulente:</strong>
+                __________________________________
+            </p>
+
+            <p><strong>Data del Consulente:</strong> 13/10/2026</p>
+
+            <div class="document-form-section">
+                <label for="client-date">Data del Cliente</label>
+                <input type="date" id="client-date" name="client-date" required>
+            </div>
+
+            <p><strong>Firma del Cliente:</strong></p>
+
+            <div class="document-form-section">
+                <label for="client-signature">Nome e cognome del Cliente come firma</label>
+                <input type="text" id="client-signature" name="client-signature" required>
+            </div>
+
+            <h2>Allegati</h2>
+
+            <ul>
+                <li>
+                    <a href="privacy.html" class="document-link">
+                        Informativa sul trattamento dei dati personali (art. 13 GDPR)
                     </a>
-
-                </p>
-
-
-                <p>
-
-                    Comprendo che la partecipazione alla consulenza
-                    non dipende dal consenso alle attività
-                    indicate di seguito.
-
-                </p>
-
-
-                <!-- =================================
-                     A
-                ================================== -->
-
-                <fieldset class="document-form-section">
-
-                    <legend>
-                        A. Registrazione della consulenza
-                    </legend>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="registrazione"
-                            value="ACCONSENTO"
-                            required>
-
-                        <span>
-
-                            ACCONSENTO alla registrazione audio
-                            e/o video della consulenza introspettiva
-                            svolta con il Titolare.
-
-                        </span>
-
-                    </label>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="registrazione"
-                            value="NON ACCONSENTO">
-
-                        <span>
-                            NON ACCONSENTO alla registrazione.
-                        </span>
-
-                    </label>
-
-                </fieldset>
-
-
-                <!-- =================================
-                     B
-                ================================== -->
-
-                <fieldset class="document-form-section">
-
-                    <legend>
-
-                        B. Utilizzo della registrazione
-                        per la creazione di contenuti
-
-                    </legend>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="utilizzo_registrazione"
-                            value="ACCONSENTO"
-                            required>
-
-                        <span>
-
-                            ACCONSENTO all'utilizzo della registrazione,
-                            o di parti di essa, per la creazione
-                            di contenuti divulgativi e/o promozionali
-                            relativi all'attività professionale
-                            del Titolare.
-
-                        </span>
-
-                    </label>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="utilizzo_registrazione"
-                            value="NON ACCONSENTO">
-
-                        <span>
-                            NON ACCONSENTO.
-                        </span>
-
-                    </label>
-
-                </fieldset>
-
-
-                <!-- =================================
-                     C
-                ================================== -->
-
-                <fieldset class="document-form-section">
-
-                    <legend>
-                        C. Pubblicazione della mia immagine
-                    </legend>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="immagine"
-                            value="ACCONSENTO"
-                            required>
-
-                        <span>
-
-                            ACCONSENTO alla pubblicazione
-                            della mia immagine nei contenuti
-                            derivanti dalla consulenza.
-
-                        </span>
-
-                    </label>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="immagine"
-                            value="NON ACCONSENTO">
-
-                        <span>
-                            NON ACCONSENTO alla pubblicazione
-                            della mia immagine.
-                        </span>
-
-                    </label>
-
-                </fieldset>
-
-
-                <!-- =================================
-                     D
-                ================================== -->
-
-                <fieldset class="document-form-section">
-
-                    <legend>
-                        D. Pubblicazione della mia voce
-                    </legend>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="voce"
-                            value="ACCONSENTO"
-                            required>
-
-                        <span>
-
-                            ACCONSENTO alla pubblicazione
-                            della mia voce nei contenuti
-                            derivanti dalla consulenza.
-
-                        </span>
-
-                    </label>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="radio"
-                            name="voce"
-                            value="NON ACCONSENTO">
-
-                        <span>
-                            NON ACCONSENTO alla pubblicazione
-                            della mia voce.
-                        </span>
-
-                    </label>
-
-                </fieldset>
-
-
-                <!-- =================================
-                     E
-                ================================== -->
-
-                <fieldset class="document-form-section">
-
-                    <legend>
-                        E. Pubblicazione sui canali online
-                    </legend>
-
-
-                    <p>
-
-                        Autorizzo la pubblicazione dei contenuti
-                        sui seguenti canali:
-
-                    </p>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="checkbox"
-                            name="canali"
-                            value="Instagram">
-
-                        <span>
-                            Instagram
-                        </span>
-
-                    </label>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="checkbox"
-                            name="canali"
-                            value="YouTube">
-
-                        <span>
-                            YouTube
-                        </span>
-
-                    </label>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="checkbox"
-                            name="canali"
-                            value="Spotify">
-
-                        <span>
-                            Spotify
-                        </span>
-
-                    </label>
-
-
-                    <label class="form-choice">
-
-                        <input
-                            type="checkbox"
-                            name="canali"
-                            value="Sito web del Titolare">
-
-                        <span>
-                            Sito web del Titolare
-                        </span>
-
-                    </label>
-
-                </fieldset>
-
-
-                <!-- =================================
-                     F
-                ================================== -->
-
-                <div class="document-form-section">
-
-                    <h2>
-                        F. Consapevolezza della diffusione online
-                    </h2>
-
-                    <p>
-
-                        Sono consapevole che la pubblicazione online
-                        può comportare la visualizzazione, copia,
-                        salvataggio o condivisione del contenuto
-                        da parte di terzi e che il Titolare non può
-                        controllare le eventuali copie effettuate
-                        successivamente da altri utenti.
-
-                    </p>
-
-                </div>
-
-
-                <!-- =================================
-                     G
-                ================================== -->
-
-                <div class="document-form-section">
-
-                    <h2>
-                        G. Revoca
-                    </h2>
-
-                    <p>
-
-                        Sono consapevole che posso revocare
-                        il consenso in qualsiasi momento,
-                        contattando il Titolare all'indirizzo:
-
-                    </p>
-
-                    <p>
-
-                        <a
-                            href="mailto:brocco.giovanni.ufficiale@gmail.com"
-                            class="document-link">
-
-                            brocco.giovanni.ufficiale@gmail.com
-
-                        </a>
-
-                    </p>
-
-                    <p>
-
-                        La revoca non pregiudica la liceità
-                        del trattamento effettuato prima
-                        della revoca.
-
-                    </p>
-
-                </div>
-
-
-                <!-- =================================
-                     DATE
-                ================================== -->
-
-                <div class="document-form-section">
-
-                    <h2>
-                        Luogo e data
-                    </h2>
-
-
-                    <label for="place">
-                        Luogo
-                    </label>
-
-                    <input
-                        type="text"
-                        id="place"
-                        name="place"
-                        required>
-
-
-                    <label for="date">
-                        Data
-                    </label>
-
-                    <input
-                        type="date"
-                        id="date"
-                        name="date"
-                        required>
-
-                </div>
-
-
-                <!-- =================================
-                     SIGNATURE
-                ================================== -->
-
-                <div class="document-form-section">
-
-                    <h2>
-                        Firma dell'interessato/a
-                    </h2>
-
-                    <p>
-
-                        Firma utilizzando il dito,
-                        la penna digitale o il mouse
-                        nello spazio sottostante.
-
-                    </p>
-
-
-                    <canvas
-                        id="signature-pad"
-                        class="signature-pad">
-                    </canvas>
-
-
-                    <input
-                        type="hidden"
-                        id="signature-data"
-                        name="signature">
-
-
-                    <button
-                        type="button"
-                        id="clear-signature"
-                        class="secondary-button">
-
-                        Cancella firma
-
-                    </button>
-
-                </div>
-
-
-                <!-- =================================
-                     FINAL CONFIRMATION
-                ================================== -->
-
-                <label class="final-confirmation">
-
-                    <input
-                        type="checkbox"
-                        name="conferma"
-                        value="SI"
-                        required>
-
-                    <span>
-
-                        Confermo di aver letto il presente modulo
-                        e di aver espresso liberamente le scelte
-                        indicate sopra.
-
-                    </span>
-
-                </label>
-
-
-                <!-- =================================
-                     SUBMIT
-                ================================== -->
-
-                <button
-                    type="submit"
-                    class="submit-button">
-
-                    Invia il modulo
-
-                </button>
-
-
-                <p
-                    id="form-status"
-                    class="form-status">
-
-                    Il modulo verrà registrato solamente
-                    quando il sistema di archiviazione
-                    sarà collegato.
-
-                </p>
-
-
-            </form>
-
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================================
-         FOOTER
-    ========================================== -->
-
-    <footer>
-
-        <div class="footer-main">
-
-
-            <div class="footer-brand">
-
-                <a href="index.html" class="logo">
-
-                    <span>
-                        JDG
-                    </span>
-
-                    <small>
-                        consulenze introspettive
-                    </small>
-
-                </a>
-
-
-                <p>
-
-                    Pensare insieme,<br>
-                    per vivere con più consapevolezza.
-
-                </p>
-
-
-                <div class="footer-legal">
-
-                    <p>
-                        P. IVA: 05011890273
-                    </p>
-<!--
-                    <p>
-                        PEC: INSERISCI PEC
-                    </p>
--->
-                </div>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>
-                    LINK UTILI
-                </h4>
-
-                <a href="index.html">
-                    Home
-                </a>
-
-                <a href="index.html#about">
-                    Cos'è
-                </a>
-
-                <a href="index.html#come-funziona">
-                    Come funziona
-                </a>
-
-                <a href="index.html#services">
-                    Servizi
-                </a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>
-                    DOCUMENTI
-                </h4>
-
-                <a href="privacy.html">
-                    Informativa Privacy
-                </a>
-
-                <a href="consenso.html">
-                    Modulo di consenso
-                </a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>
-                    CONTATTI
-                </h4>
-
-                <a href="https://www.instagram.com/jeromedegrasse">
-                    Instagram
-                </a>
-
-                <a href="mailto:brocco.giovanni.ufficiale@gmail.com">
-                    Email
-                </a>
-
-            </div>
-
-
-        </div>
-
-
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 Jerome
+                </li>
+                <li>
+                    Moduli di raccolta dei consensi specifici, ove applicabili.
+                </li>
+            </ul>
+
+            <p class="form-status">
+                Questo modulo raccoglie i dati inseriti nella pagina, ma
+                non li salva né li trasmette al Consulente. Per formalizzare
+                il contratto, le parti devono utilizzare una modalità di
+                sottoscrizione e conservazione concordata.
             </p>
 
-            <p>
-                Consulenza introspettiva
-            </p>
+        </form>
 
+    </section>
+</main>
+
+<footer>
+    <div class="footer-main">
+
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                <span>Giovanni Brocco</span>
+                <small>consulenze introspettive</small>
+            </a>
+
+            <p>Pensare insieme,<br>per vivere con più consapevolezza.</p>
+
+            <div class="footer-legal">
+                <p>P. IVA: 05011890273</p>
+            </div>
         </div>
 
-    </footer>
-
-
-    <!-- =========================================
-         SIGNATURE FRONTEND
-    ========================================== -->
-
-    <script>
-
-        const canvas =
-            document.getElementById("signature-pad");
-
-        const context =
-            canvas.getContext("2d");
-
-        const clearButton =
-            document.getElementById("clear-signature");
-
-        const form =
-            document.getElementById("consent-form");
-
-        const signatureData =
-            document.getElementById("signature-data");
-
-        const formStatus =
-            document.getElementById("form-status");
-
-        let drawing = false;
-
-        let hasSignature = false;
-
-
-        function setupCanvas() {
-
-            const ratio =
-                Math.max(
-                    window.devicePixelRatio || 1,
-                    1
-                );
-
-            const rect =
-                canvas.getBoundingClientRect();
-
-
-            canvas.width =
-                rect.width * ratio;
-
-            canvas.height =
-                rect.height * ratio;
-
-
-            context.setTransform(
-                ratio,
-                0,
-                0,
-                ratio,
-                0,
-                0
-            );
-
-
-            context.lineWidth = 2;
-
-            context.lineCap = "round";
-
-            context.lineJoin = "round";
-
-            context.strokeStyle = "#171717";
-
-        }
-
-
-        setupCanvas();
-
-
-        function getPosition(event) {
-
-            const rect =
-                canvas.getBoundingClientRect();
-
-
-            const pointer =
-                event.touches
-                    ? event.touches[0]
-                    : event;
-
-
-            return {
-
-                x:
-                    pointer.clientX -
-                    rect.left,
-
-                y:
-                    pointer.clientY -
-                    rect.top
-
-            };
-
-        }
-
-
-        function startDrawing(event) {
-
-            event.preventDefault();
-
-
-            drawing = true;
-
-            hasSignature = true;
-
-
-            const point =
-                getPosition(event);
-
-
-            context.beginPath();
-
-
-            context.moveTo(
-                point.x,
-                point.y
-            );
-
-        }
-
-
-        function draw(event) {
-
-            if (!drawing) {
-                return;
-            }
-
-
-            event.preventDefault();
-
-
-            const point =
-                getPosition(event);
-
-
-            context.lineTo(
-                point.x,
-                point.y
-            );
-
-
-            context.stroke();
-
-        }
-
-
-        function stopDrawing() {
-
-            drawing = false;
-
-        }
-
-
-        canvas.addEventListener(
-            "mousedown",
-            startDrawing
-        );
-
-
-        canvas.addEventListener(
-            "mousemove",
-            draw
-        );
-
-
-        window.addEventListener(
-            "mouseup",
-            stopDrawing
-        );
-
-
-        canvas.addEventListener(
-            "touchstart",
-            startDrawing,
-            {
-                passive: false
-            }
-        );
-
-
-        canvas.addEventListener(
-            "touchmove",
-            draw,
-            {
-                passive: false
-            }
-        );
-
-
-        canvas.addEventListener(
-            "touchend",
-            stopDrawing
-        );
-
-
-        clearButton.addEventListener(
-            "click",
-            function () {
-
-                context.clearRect(
-                    0,
-                    0,
-                    canvas.width,
-                    canvas.height
-                );
-
-
-                hasSignature = false;
-
-                signatureData.value = "";
-
-                formStatus.textContent =
-                    "";
-
-            }
-        );
-
-
-        form.addEventListener(
-            "submit",
-            function (event) {
-
-                event.preventDefault();
-
-
-                if (!hasSignature) {
-
-                    formStatus.textContent =
-                        "Inserisci la firma prima di inviare.";
-
-                    return;
-
-                }
-
-
-                signatureData.value =
-                    canvas.toDataURL("image/png");
-
-
-                /*
-                =========================================
-                BACKEND
-
-                QUI collegheremo Cloudflare.
-
-                Quando il backend sarà pronto,
-                questo blocco verrà sostituito
-                dalla richiesta al server.
-
-                NON stiamo fingendo che il modulo
-                sia stato salvato quando non lo è.
-                =========================================
-                */
-
-
-                formStatus.textContent =
-
-                    "Modulo compilato correttamente. " +
-
-                    "Il sistema di archiviazione online " +
-
-                    "deve ancora essere collegato prima " +
-
-                    "che questo modulo possa essere utilizzato.";
-
-            }
-        );
-
-    </script>
-
+        <div class="footer-column">
+            <h4>LINK UTILI</h4>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">Cos'è</a>
+            <a href="index.html#come-funziona">Come funziona</a>
+            <a href="index.html#services">Servizi</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>DOCUMENTI</h4>
+            <a href="privacy.html">Informativa Privacy</a>
+            <a href="consenso.html">Contratto di consulenza</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>CONTATTI</h4>
+            <a href="https://www.instagram.com/jeromedegrasse">Instagram</a>
+            <a href="mailto:brocco.giovanni.ufficiale@gmail.com">Email</a>
+            <a href="prenota.html">Prenota</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Giovanni Brocco</p>
+        <p>Consulenza introspettiva</p>
+    </div>
+</footer>
 
 </body>
-
 </html>
+```
