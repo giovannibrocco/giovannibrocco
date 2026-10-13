@@ -161,7 +161,6 @@ nav {
 ========================================= */
 .intro-photo {
     min-height: 0;
-    height: 50%;
     background-color: #cbc6bc;
     background-image: url("images/IMG_1203.jpeg");
     background-size: cover;
