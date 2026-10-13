@@ -160,15 +160,13 @@ nav {
    PHOTO
 ========================================= */
 .intro-photo {
-      min-height: 0;
-      background: #cbc6bc;
-      background-image: url("images/IMG_1203.jpeg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    min-height: 0;
+    height: 50%;
+    background-color: #cbc6bc;
+    background-image: url("images/jerome.jpeg");
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
     /*
     QUANDO HAI LA FOTO DI GIOVANNI:
     background-image: url("images/giovanni.jpg");
