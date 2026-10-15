@@ -821,9 +821,14 @@ fieldset.document-form-section {
         font-size: 18px;
         letter-spacing: 0;
     }
-    .logo small {
-        font-size: 8px;
-    }
+
+   .logo .header-logo {
+    display: block;
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
     .nav-button {
         display: inline-flex;
         align-items: center;
@@ -876,7 +881,7 @@ fieldset.document-form-section {
             ),
             url("images/IMG_1203.jpeg");
         background-size: cover;
-        background-position: center 35%;
+        background-position: center 20%;
         background-repeat: no-repeat;
         color: #f5f2ec;
     }
