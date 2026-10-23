@@ -7,19 +7,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: Arial, sans-serif;
     background: #f5f2ec;
     color: #171717;
     line-height: 1.6;
 }
+
 a {
     color: inherit;
     text-decoration: none;
 }
+
 /* =========================================
    GENERAL TYPOGRAPHY
 ========================================= */
@@ -29,6 +33,7 @@ a {
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 /* =========================================
    HEADER
 ========================================= */
@@ -42,22 +47,27 @@ header {
     background: #202526;
     color: #f5f2ec;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
+
+/* JDG LOGO */
 .logo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     color: #f5f2ec;
+    width: 145px;
     min-width: 145px;
     flex-shrink: 0;
     line-height: 1;
 }
+
 .logo-initials {
     display: block;
     font-family: Georgia, serif;
@@ -66,14 +76,7 @@ nav {
     letter-spacing: 2px;
     line-height: 1;
 }
-.logo-line {
-    display: block;
-    width: 100%;
-    max-width: 145px;
-    height: 1px;
-    background: #ead7b9;
-    margin: 7px 0 6px;
-}
+
 .logo small {
     display: block;
     font-family: Arial, sans-serif;
@@ -83,18 +86,22 @@ nav {
     line-height: 1.3;
     white-space: nowrap;
 }
+
 .nav-links {
     display: flex;
     align-items: center;
     gap: 27px;
 }
+
 .nav-links a {
     color: #f5f2ec;
     font-size: 13px;
 }
+
 .nav-links a:hover {
     opacity: 0.65;
 }
+
 .nav-button {
     display: inline-flex;
     align-items: center;
@@ -108,9 +115,11 @@ nav {
     white-space: nowrap;
     transition: background 0.2s ease;
 }
+
 .nav-button:hover {
     background: #f1dfc2;
 }
+
 /* =========================================
    HERO: TWO COLUMNS, TWO ROWS
 ========================================= */
@@ -122,6 +131,7 @@ nav {
     grid-template-rows: minmax(480px, 620px) auto;
     background: #f5f2ec;
 }
+
 /* =========================================
    TOP LEFT: SPAZIO, ASCOLTO, PENSIERO
 ========================================= */
@@ -137,6 +147,7 @@ nav {
     justify-content: center;
     padding: 45px 7%;
 }
+
 .hero h1 {
     font-size: clamp(62px, 7vw, 105px);
     line-height: 0.88;
@@ -144,6 +155,7 @@ nav {
     font-weight: 400;
     margin-bottom: 30px;
 }
+
 .hero-text {
     max-width: 390px;
     font-size: 14px;
@@ -151,11 +163,13 @@ nav {
     color: #555;
     margin-bottom: 30px;
 }
+
 .hero-buttons {
     display: flex;
     align-items: center;
     gap: 22px;
 }
+
 .button {
     background: #171717;
     color: white;
@@ -163,12 +177,15 @@ nav {
     font-size: 13px;
     border-radius: 2px;
 }
+
 .button:hover {
     background: #343434;
 }
+
 .text-link {
     font-size: 13px;
 }
+
 /* =========================================
    RIGHT SIDE: FULL-HEIGHT PHOTO
 ========================================= */
@@ -186,6 +203,7 @@ nav {
     background-position: center 35%;
     background-repeat: no-repeat;
 }
+
 /* =========================================
    BOTTOM LEFT: UN DIALOGO
 ========================================= */
@@ -203,10 +221,12 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
+
 .about-text .eyebrow {
     color: #bcbcb5;
     margin-bottom: 12px;
 }
+
 .about-text h2 {
     max-width: 480px;
     font-family: Arial, serif;
@@ -216,6 +236,7 @@ nav {
     letter-spacing: -2px;
     margin-bottom: 16px;
 }
+
 .about-description {
     max-width: 440px;
     color: #c7c6c0;
@@ -223,10 +244,12 @@ nav {
     line-height: 1.55;
     margin-bottom: 12px;
 }
+
 .light-link {
     color: #f5f2ec;
     font-size: 13px;
 }
+
 /* =========================================
    CHI SONO: TEXT OVER THE PHOTO
 ========================================= */
@@ -242,7 +265,6 @@ nav {
     flex-direction: column;
     justify-content: flex-end;
     color: #f5f2ec;
-    /* Transparent overlay: the photo stays visible */
     background: linear-gradient(
         180deg,
         rgba(18, 22, 22, 0.18) 0%,
@@ -250,12 +272,14 @@ nav {
         rgba(18, 22, 22, 0.42) 100%
     );
 }
+
 .intro-content .eyebrow {
     color: #f5f2ec;
     font-size: 12px;
     letter-spacing: 1.8px;
     margin-bottom: 18px;
 }
+
 .intro-content > p:not(.eyebrow):not(.intro-name) {
     max-width: 520px;
     font-size: 14px;
@@ -264,12 +288,14 @@ nav {
     margin-bottom: 15px;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
+
 .intro-name {
     margin-top: 7px;
     font-family: Georgia, serif;
     font-size: 18px;
     color: #f5f2ec;
 }
+
 /* =========================================
    PROCESS
 ========================================= */
@@ -277,41 +303,49 @@ nav {
     background: #f7f6f2;
     padding: 45px 7% 55px;
 }
+
 .section-title {
     text-align: center;
     margin-bottom: 28px;
 }
+
 .process-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 950px;
     margin: auto;
 }
+
 .process-item {
     text-align: center;
     padding: 0 30px;
     border-right: 1px solid #d5d1ca;
 }
+
 .process-item:last-child {
     border-right: none;
 }
+
 .process-number {
     display: block;
     font-size: 32px;
     color: #777;
     margin-bottom: 5px;
 }
+
 .process-item h3 {
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 6px;
 }
+
 .process-item p {
     max-width: 190px;
     margin: auto;
     font-size: 14px;
     color: #666;
 }
+
 /* =========================================
    SERVICES
 ========================================= */
@@ -319,6 +353,7 @@ nav {
     background: #f7f6f2;
     padding: 25px 7% 60px;
 }
+
 .service-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -326,6 +361,7 @@ nav {
     max-width: 950px;
     margin: auto;
 }
+
 .service-card {
     background: #faf9f6;
     border: 1px solid #e0dcd4;
@@ -334,6 +370,7 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
 .service-icon {
     width: 40px;
     height: 40px;
@@ -345,16 +382,19 @@ nav {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
 .service-card h3 {
     font-size: 21px;
     margin-bottom: 10px;
 }
+
 .service-card > p {
     font-size: 14px;
     line-height: 1.6;
     color: #666;
     max-width: 350px;
 }
+
 .service-bottom {
     display: flex;
     justify-content: space-between;
@@ -362,23 +402,28 @@ nav {
     margin-top: auto;
     padding-top: 22px;
 }
+
 .service-bottom div {
     display: flex;
     flex-direction: column;
 }
+
 .service-bottom span {
     font-size: 14px;
     color: #777;
 }
+
 .service-bottom strong {
     font-size: 15px;
 }
+
 .service-bottom a {
     background: #202526;
     color: white;
     padding: 9px 30px;
     font-size: 13px;
 }
+
 .service-coming-soon {
     display: inline-block;
     background: #e0dcd4;
@@ -388,6 +433,7 @@ nav {
     border-radius: 2px;
     white-space: nowrap;
 }
+
 .service-disclaimer {
     max-width: 950px;
     margin: 22px auto 0;
@@ -399,6 +445,7 @@ nav {
     color: #777;
     line-height: 1.6;
 }
+
 /* =========================================
    CTA
 ========================================= */
@@ -411,33 +458,39 @@ nav {
     overflow: hidden;
     color: white;
 }
+
 .cta-image {
     position: absolute;
     inset: 0;
     background: #77736d;
 }
+
 .cta-image::after {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(20, 20, 18, 0.35);
 }
+
 .cta-content {
     position: relative;
     z-index: 2;
     text-align: center;
 }
+
 .cta h2 {
     font-family: Georgia, serif;
     font-size: 42px;
     font-weight: 400;
     margin-bottom: 7px;
 }
+
 .cta p {
     font-size: 14px;
     margin-bottom: 17px;
     color: #e3e0d9;
 }
+
 .cta-button {
     display: inline-block;
     background: #ead7b9;
@@ -445,6 +498,7 @@ nav {
     padding: 10px 18px;
     font-size: 13px;
 }
+
 /* =========================================
    CONTACT
 ========================================= */
@@ -453,6 +507,7 @@ nav {
     text-align: center;
     background: #f5f2ec;
 }
+
 .contact h2 {
     font-family: Georgia, serif;
     font-size: clamp(42px, 6vw, 68px);
@@ -461,19 +516,23 @@ nav {
     letter-spacing: -2px;
     margin-bottom: 18px;
 }
+
 .contact > p:not(.eyebrow) {
     font-size: 14px;
     color: #666;
     margin-bottom: 28px;
 }
+
 .contact-links {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+
 .contact-links a {
     font-size: 14px;
 }
+
 /* =========================================
    FOOTER
 ========================================= */
@@ -482,6 +541,7 @@ footer {
     color: #f5f2ec;
     padding: 50px 7% 22px;
 }
+
 .footer-main {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -489,40 +549,49 @@ footer {
     padding-bottom: 38px;
     border-bottom: 1px solid #424645;
 }
+
 .footer-brand .logo {
     margin-bottom: 20px;
 }
+
 .footer-brand > p {
     color: #b9b9b2;
     font-size: 13px;
     line-height: 1.7;
 }
+
 .footer-legal {
     margin-top: 22px;
 }
+
 .footer-legal p {
     font-size: 13px;
     color: #b9b9b2;
     line-height: 1.8;
 }
+
 .footer-column {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .footer-column h4 {
     font-size: 13px;
     letter-spacing: 1px;
     color: #aaa9a2;
     margin-bottom: 7px;
 }
+
 .footer-column a {
     color: #d0cec7;
     font-size: 13px;
 }
+
 .footer-column a:hover {
     color: white;
 }
+
 .footer-bottom {
     padding-top: 18px;
     display: flex;
@@ -530,20 +599,24 @@ footer {
     font-size: 13px;
     color: #85857f;
 }
+
 /* =========================================
    PRIVACY + CONSENT
 ========================================= */
 .document-page {
     width: 100%;
 }
+
 .document-hero {
     background: #202526;
     color: #f5f2ec;
     padding: 135px 7% 65px;
 }
+
 .document-hero .eyebrow {
     color: #bcbcb5;
 }
+
 .document-hero h1 {
     max-width: 900px;
     font-family: Georgia, serif;
@@ -553,17 +626,20 @@ footer {
     letter-spacing: -1.5px;
     margin-bottom: 18px;
 }
+
 .document-hero > p:not(.eyebrow) {
     font-size: 14px;
     color: #c7c6c0;
     line-height: 1.6;
 }
+
 .document-content {
     width: 100%;
     max-width: 1100px;
     margin: 0;
     padding: 70px 7% 95px;
 }
+
 .document-content h2,
 .document-form-section legend {
     font-family: Georgia, serif;
@@ -574,9 +650,11 @@ footer {
     margin-bottom: 18px;
     letter-spacing: -0.3px;
 }
+
 .document-content > h2:first-child {
     margin-top: 0;
 }
+
 .document-content p {
     max-width: 900px;
     font-size: 14px;
@@ -584,26 +662,31 @@ footer {
     color: #444;
     margin-bottom: 16px;
 }
+
 .document-content ul {
     max-width: 900px;
     padding-left: 22px;
     margin-bottom: 20px;
 }
+
 .document-content li {
     font-size: 14px;
     line-height: 1.8;
     color: #444;
     margin-bottom: 6px;
 }
+
 .document-link {
     color: #202526;
     text-decoration: underline;
     text-underline-offset: 3px;
     font-weight: 600;
 }
+
 .document-link:hover {
     opacity: 0.65;
 }
+
 /* =========================================
    CONSENT FORM
 ========================================= */
@@ -611,19 +694,23 @@ footer {
     max-width: 900px;
     margin-bottom: 40px;
 }
+
 fieldset.document-form-section {
     border: 0;
     padding: 0;
 }
+
 .document-form-section:first-child h2 {
     margin-top: 0;
 }
+
 .document-form-section label:not(.form-choice) {
     display: block;
     font-size: 14px;
     font-weight: 600;
     margin: 18px 0 7px;
 }
+
 .document-form-section input[type="text"],
 .document-form-section input[type="date"] {
     display: block;
@@ -639,6 +726,7 @@ fieldset.document-form-section {
     font-size: 14px;
     color: #171717;
 }
+
 /* RADIO / CHECKBOX */
 .form-choice {
     max-width: 900px;
@@ -651,10 +739,12 @@ fieldset.document-form-section {
     line-height: 1.7;
     color: #444;
 }
+
 .form-choice input {
     margin-top: 5px;
     flex-shrink: 0;
 }
+
 /* SIGNATURE */
 .signature-pad {
     display: block;
@@ -666,6 +756,7 @@ fieldset.document-form-section {
     border: 1px solid #aaa;
     touch-action: none;
 }
+
 /* BUTTONS */
 .secondary-button {
     padding: 9px 16px;
@@ -676,10 +767,12 @@ fieldset.document-form-section {
     font-size: 13px;
     cursor: pointer;
 }
+
 .secondary-button:hover {
     background: #202526;
     color: white;
 }
+
 .final-confirmation {
     max-width: 900px;
     display: flex;
@@ -690,10 +783,12 @@ fieldset.document-form-section {
     line-height: 1.7;
     color: #444;
 }
+
 .final-confirmation input {
     margin-top: 5px;
     flex-shrink: 0;
 }
+
 .submit-button {
     padding: 14px 28px;
     border: 0;
@@ -704,14 +799,17 @@ fieldset.document-form-section {
     font-size: 14px;
     cursor: pointer;
 }
+
 .submit-button:hover {
     background: #343a3b;
 }
+
 .form-status {
     margin-top: 18px;
     font-size: 13px !important;
     color: #777 !important;
 }
+
 /* =========================================
    BOOKING PAGE
 ========================================= */
@@ -722,6 +820,7 @@ fieldset.document-form-section {
     gap: 14px;
     margin-top: 32px;
 }
+
 .booking-button,
 .booking-button-primary,
 .booking-button-secondary,
@@ -743,6 +842,7 @@ fieldset.document-form-section {
     text-decoration: none;
     transition: background-color 0.2s ease;
 }
+
 .booking-button:hover,
 .booking-button-primary:hover,
 .booking-button-secondary:hover,
@@ -750,12 +850,14 @@ fieldset.document-form-section {
     background-color: #f1dfc2 !important;
     color: #171717 !important;
 }
+
 .booking-signature {
     margin-top: 42px;
     font-family: Georgia, serif;
     font-size: 19px;
     color: #202526;
 }
+
 .booking-signature span {
     display: block;
     margin-top: 3px;
@@ -764,6 +866,7 @@ fieldset.document-form-section {
     letter-spacing: 1px;
     color: #77736d;
 }
+
 /* =========================================
    TABLET
 ========================================= */
@@ -771,56 +874,70 @@ fieldset.document-form-section {
     .nav-links {
         display: none;
     }
+
     nav {
         gap: 15px;
     }
+
     .logo {
         min-width: 0;
     }
+
     .nav-button {
         display: inline-flex;
         flex-shrink: 0;
     }
+
     /* HERO */
     .hero {
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         grid-template-rows: minmax(450px, 560px) auto;
     }
+
     .hero-content {
         padding: 70px 7%;
     }
+
     .hero h1 {
         font-size: clamp(48px, 6vw, 68px);
         letter-spacing: -2px;
     }
+
     .hero-buttons {
         flex-wrap: wrap;
         gap: 14px;
     }
+
     .about-text {
         min-height: 330px;
         padding: 40px 7%;
     }
+
     .about-text h2 {
         font-size: clamp(32px, 4vw, 44px);
     }
+
     .intro-content {
         padding: 45px 7%;
     }
+
     .intro-content > p:not(.eyebrow):not(.intro-name) {
         font-size: 13px;
         line-height: 1.65;
     }
+
     /* FOOTER */
     .footer-main {
         grid-template-columns: 1fr 1fr;
     }
+
     /* DOCUMENTS */
     .document-content {
         max-width: 100%;
         padding: 60px 7% 80px;
     }
 }
+
 /* =========================================
    MOBILE
 ========================================= */
@@ -829,23 +946,25 @@ fieldset.document-form-section {
     header {
         padding: 16px 5%;
     }
+
     nav {
         gap: 15px;
     }
+
     .logo {
         min-width: 0;
         width: 145px;
     }
+
     .logo-initials {
         font-size: 27px;
     }
-    .logo-line {
-        max-width: 135px;
-    }
+
     .logo small {
         font-size: 7px;
         letter-spacing: 0.8px;
     }
+
     .nav-button {
         display: inline-flex;
         align-items: center;
@@ -853,27 +972,32 @@ fieldset.document-form-section {
         font-size: 12px;
         padding: 9px 12px;
     }
+
     /* HERO: STACK THE CONTENT */
     .hero {
         padding-top: 78px;
         grid-template-columns: minmax(0, 1fr);
         grid-template-rows: auto auto auto;
     }
+
     .hero-content {
         grid-column: 1;
         grid-row: 1;
         min-height: 570px;
         padding: 115px 5% 60px;
     }
+
     .hero h1 {
         font-size: 62px;
         letter-spacing: -2px;
     }
+
     .hero-buttons {
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
     }
+
     /*
        On mobile, the photo and Chi sono text
        become one single image section.
@@ -881,6 +1005,7 @@ fieldset.document-form-section {
     .intro-photo {
         display: none;
     }
+
     .intro-content {
         grid-column: 1;
         grid-row: 2;
@@ -902,17 +1027,21 @@ fieldset.document-form-section {
         background-repeat: no-repeat;
         color: #f5f2ec;
     }
+
     .intro-content .eyebrow {
         margin-bottom: 14px;
     }
+
     .intro-content > p:not(.eyebrow):not(.intro-name) {
         font-size: 14px;
         line-height: 1.65;
         color: #f1eee8;
     }
+
     .intro-name {
         font-size: 18px;
     }
+
     /* UN DIALOGO: AFTER THE PHOTO */
     .about-text {
         grid-column: 1;
@@ -921,92 +1050,115 @@ fieldset.document-form-section {
         min-height: 0;
         padding: 32px 5%;
     }
+
     .about-text h2 {
         font-size: 47px;
         margin-bottom: 14px;
     }
+
     .about-text .eyebrow {
         margin-bottom: 10px;
     }
+
     .about-description {
         margin-bottom: 10px;
     }
+
     /* PROCESS */
     .process {
         padding: 40px 5%;
     }
+
     .process-list {
         grid-template-columns: 1fr;
     }
+
     .process-item {
         border-right: 0;
         border-bottom: 1px solid #d5d1ca;
         padding: 0 0 27px;
         margin-bottom: 27px;
     }
+
     .process-item:last-child {
         border-bottom: 0;
         margin-bottom: 0;
     }
+
     /* SERVICES */
     .services {
         padding: 25px 5% 50px;
     }
+
     .service-list {
         grid-template-columns: 1fr;
     }
+
     .service-disclaimer {
         padding: 0 10px;
         font-size: 13px;
     }
+
     .service-coming-soon {
         font-size: 12px;
         padding: 9px 13px;
     }
+
     /* CONTACT */
     .contact {
         padding: 70px 5%;
     }
+
     .contact-links {
         flex-direction: column;
         gap: 14px;
     }
+
     /* FOOTER */
     footer {
         padding: 45px 5% 22px;
     }
+
     .footer-main {
         grid-template-columns: 1fr;
         gap: 30px;
     }
+
     .footer-bottom {
         flex-direction: column;
         gap: 6px;
     }
+
     /* PRIVACY + CONSENT */
     .document-hero {
         padding: 115px 5% 50px;
     }
+
     .document-hero h1 {
         font-size: 34px;
     }
+
     .document-content {
         padding: 50px 5% 70px;
     }
+
     .document-content h2,
     .document-form-section legend {
         font-size: 21px;
         margin-top: 40px;
     }
+
     .document-content p,
     .document-content li,
     .form-choice,
     .final-confirmation {
         font-size: 14px;
     }
+
     .signature-pad {
         height: 170px;
     }
+
     /* BOOKING BUTTONS */
     .booking-buttons {
         display: flex !important;
@@ -1015,6 +1167,7 @@ fieldset.document-form-section {
         gap: 14px !important;
         width: 100%;
     }
+
     .booking-buttons .booking-button,
     .booking-buttons .booking-button-primary,
     .booking-buttons .booking-button-secondary,
@@ -1034,6 +1187,7 @@ fieldset.document-form-section {
         text-align: center;
         text-decoration: none;
     }
+
     .booking-buttons a.booking-button:hover,
     .booking-buttons a.booking-button-primary:hover,
     .booking-buttons a.booking-button-secondary:hover,
@@ -1041,6 +1195,7 @@ fieldset.document-form-section {
         background: #f1dfc2 !important;
         color: #171717 !important;
     }
+
     .booking-signature {
         margin-top: 32px;
     }
