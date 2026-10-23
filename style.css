@@ -1,3 +1,4 @@
+
 /* =========================================
    RESET
 ========================================= */
@@ -50,20 +51,37 @@ nav {
 .logo {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     color: #f5f2ec;
-    min-width: 205px;
+    min-width: 145px;
+    flex-shrink: 0;
+    line-height: 1;
 }
-.logo span {
+.logo-initials {
+    display: block;
     font-family: Georgia, serif;
-    font-size: 21px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    line-height: 1.1;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+.logo-line {
+    display: block;
+    width: 100%;
+    max-width: 145px;
+    height: 1px;
+    background: #ead7b9;
+    margin: 7px 0 6px;
 }
 .logo small {
-    font-size: 9px;
-    letter-spacing: 0.8px;
-    margin-top: 5px;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    line-height: 1.3;
+    white-space: nowrap;
 }
 .nav-links {
     display: flex;
@@ -816,19 +834,18 @@ fieldset.document-form-section {
     }
     .logo {
         min-width: 0;
+        width: 145px;
     }
-    .logo span {
-        font-size: 18px;
-        letter-spacing: 0;
+    .logo-initials {
+        font-size: 27px;
     }
-
-   .logo .header-logo {
-    display: block;
-    width: 42px;
-    height: 42px;
-    object-fit: contain;
-    margin-bottom: 8px;
-}
+    .logo-line {
+        max-width: 135px;
+    }
+    .logo small {
+        font-size: 7px;
+        letter-spacing: 0.8px;
+    }
     .nav-button {
         display: inline-flex;
         align-items: center;
